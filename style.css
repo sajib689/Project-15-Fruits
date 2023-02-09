@@ -1,8 +1,9 @@
 /* Google fonts */
-  @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
 
 *{
     font-family: 'Josefin Sans', sans-serif;
+    /* font-family: 'Open Sans', sans-serif; */
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -10,5 +11,15 @@
     text-decoration: none;
     scroll-padding-top: 2rem;
     scroll-behavior: smooth;
+}
+:root{
+    --bg-color: #ffffff;
+    --second-color: #f54300;
+    --main-color: #7dd87d;
+    --text-color: #130849;
+    --other-color: #999fb9;
+    --big-font: #4.8rem;
+    --h2-font: #3.2rem;
+    --p-font: #1rem;
 }
 /* Some variables */
