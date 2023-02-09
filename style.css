@@ -28,7 +28,11 @@ body {
 }
 /* Some variables */
 /* Header */
-
+header.sticky{
+    background: #fff;
+    padding: 12px 8%;
+    box-shadow: 0px 0px 1px #13084982;
+}
 header{
     position: fixed;
     width: 100%;
@@ -167,3 +171,4 @@ section {
     margin-bottom: 30px;
     font-family: 'Open Sans', sans-serif;
 }
+/* food menu */
